@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/e812fd1a-64ca-4ed8-913e-1c3c50d59489
 2. Use web/curl/requests to send http request to ESP32 using its IP.
 
 https://github.com/user-attachments/assets/e314b82c-2355-466f-a74f-3f678c55acb9
-### Cycling through the months keeping everything static
+### Cycling through the months keeping everything else static
 https://github.com/user-attachments/assets/45a917b6-e1ea-4f67-8c97-f9f793347139
 ## Issues
 1. The holidays are hardcoded. Using Google calendar's API to syncrhonously update holidays can be an option.
