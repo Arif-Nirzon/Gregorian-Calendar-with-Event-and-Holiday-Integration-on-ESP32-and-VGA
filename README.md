@@ -11,6 +11,16 @@ This was a part of our EEE 416 (Microprocessor and Embedded Systems Laboratory) 
 2. RTC library
 
 Both of the libraries can be found inside Arduino IDE's library section.
+## Demonstration Videos
+### Final Calendar
+https://github.com/user-attachments/assets/e812fd1a-64ca-4ed8-913e-1c3c50d59489
+### Adding events from web
+1. Connect to the ESP32 accesspoint using the credentials inside the code
+2. Use web/curl/requests to send http request to ESP32 using its IP.
+
+https://github.com/user-attachments/assets/e314b82c-2355-466f-a74f-3f678c55acb9
+### Cycling through the months keeping everything static
+https://github.com/user-attachments/assets/45a917b6-e1ea-4f67-8c97-f9f793347139
 ## Issues
 1. The holidays are hardcoded. Using Google calendar's API to syncrhonously update holidays can be an option.
 2. The events added through web are stored in voltatile memory and will be deleted with restart. External SD card can be used to store the events and holidays.
